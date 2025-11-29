@@ -74,21 +74,21 @@ func errorMerging(errs []error) error
 func errorScore(err error) int
 ```
 
-## func [filterIssues](<https://github.com/SuperBuker/terraform-provider-dns-he-net/tree/master/common/client/status/blob/master/client/status/parsers.go#L34>)
+## func [filterIssues](<https://github.com/SuperBuker/terraform-provider-dns-he-net/tree/master/common/client/status/blob/master/client/status/parsers.go#L38>)
 
 ```go
 func filterIssues(issues []string) ([]string, []error)
 ```
 
-## func [fromAuthStatus](<https://github.com/SuperBuker/terraform-provider-dns-he-net/tree/master/common/client/status/blob/master/client/status/parsers.go#L17>)
+## func [fromAuthStatus](<https://github.com/SuperBuker/terraform-provider-dns-he-net/tree/master/common/client/status/blob/master/client/status/parsers.go#L21>)
 
 ```go
 func fromAuthStatus(status auth.Status) (err error)
 ```
 
-fromAuthStatus returns an error asssociated to the auth status.
+fromAuthStatus returns an error associated to the auth status.
 
-## func [fromIssue](<https://github.com/SuperBuker/terraform-provider-dns-he-net/tree/master/common/client/status/blob/master/client/status/parsers.go#L55>)
+## func [fromIssue](<https://github.com/SuperBuker/terraform-provider-dns-he-net/tree/master/common/client/status/blob/master/client/status/parsers.go#L59>)
 
 ```go
 func fromIssue(issues []string) (errs []error)
